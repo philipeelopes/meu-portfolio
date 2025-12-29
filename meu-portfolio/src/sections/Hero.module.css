@@ -1,0 +1,68 @@
+/*paleta
+#2b4c7e
+#567ebb
+#606d80
+#dce0e6
+#1f1f20
+*/
+
+body{
+    background-color: #1f1f20;
+}
+
+.hero {
+    min-height: 100vh;
+    padding: rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  1rem;
+    }
+
+    .hero h1 {
+        color: #dce0e6;
+        font-size:  3rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+        color: #567ebb;
+    }
+
+    .hero p {
+        color: #dce0e6;
+        font-size: 1.2rem;
+
+    }
+
+    .actions{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .actions a {
+        padding: 0.75rem 1.5rem;
+        border-radius: 6px;
+        background: #222;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.5s ease;
+    }
+    
+    .actions a:hover{
+        background: #567ebb;
+        transform: scale(1.1);
+        transition: all 0.5s ease;
+    }
+
+    
+   @media (max-width: 768px){
+
+ 
+
+   }
+        
+    
+    
